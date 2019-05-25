@@ -1,0 +1,403 @@
+
+div#mainContent {
+
+  float: left;
+
+  width: 960px;
+
+  min-height: 800px;
+
+  background: white;
+
+}
+
+/* HOME */
+
+/* ABOUT */
+
+div#mainContent div#innerMainContent {
+
+  padding: 24px;
+
+  font-size: 16pt;
+
+  text-align: justify;
+
+}
+
+div#mainContent div#aboutShortBioComp img.aboutBioPic,
+div#mainContent div#aboutShortBioLang img.aboutBioPic {
+
+  float: left;
+
+  width: 304px;
+
+  height: 402px;
+
+  padding: 0 24px 24px 0;
+
+}
+
+/* LANGUAGE SERVICES -> LANGUAGES */
+
+div#mainContent div#translationsSummary {
+
+  padding-bottom: 24px;
+
+  font-size: 18pt;
+
+}
+
+div#mainContent div#translationsAreas {
+
+  float: left;
+
+  border: 1px solid black;
+
+  padding: 15px;
+
+  width: 280px;
+
+  background: aqua;
+
+  text-align: left;
+
+}
+
+div#mainContent div#translationsAreas h3 {
+
+  padding-bottom: 15px;
+
+}
+
+div#mainContent div#translationsAreas ul {
+
+  list-style-image: url("../images/checkmark-green-small.jpg");
+
+  list-style-position: inside;
+
+  list-style-type: disc;  /* just in case list-style-image is not supported */
+
+}
+
+div#mainContent div#translationsAreas ul li {
+
+  height: 25px;
+
+  font-weight: bold;
+
+}
+
+div#mainContent div#translationsSteps {
+
+  float: right;
+
+  border: 1px solid black;
+
+  padding: 15px;
+
+  width: 500px;
+
+  font-weight:bold;
+
+}
+
+div#mainContent div#translationsSteps h3 {
+
+  padding-bottom: 15px;
+
+}
+
+div#mainContent div#translationsSteps ul li {
+
+  font-size: 16pt;
+
+  padding: 5px;
+
+}
+
+div#mainContent div#translationsSteps span.step {
+
+  color: red;
+
+}
+
+div#mainContent div#translationsSteps div.getInTouchButton {
+
+  width: 220px;
+
+  height: 30px;
+
+  margin: 20px 0;
+
+  border: 1px solid black;
+
+  padding: 30px 0;
+
+  background: lightgreen;
+
+  font-size: 24px;
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-weight: 600;
+
+  text-align: center;
+
+}
+
+div#mainContent div#translationsSteps a:link,
+div#mainContent div#translationsSteps a:visited {
+
+  color: blue;
+
+}
+
+div#mainContent div#translationsSteps a:hover {
+
+  color: blue;
+
+}
+
+div#mainContent div#translationsSteps a:active {
+
+  background: none;
+
+  color: black;
+
+}
+
+/* LANGUAGE SERVICES -> COMPUTERS */
+
+div#mainContent p.topParagraph {
+
+  padding-bottom: 20px;
+
+  font-size: 20pt;
+
+}
+
+div#mainContent ul.train {
+
+  list-style-position: inside;
+
+  list-style-image: url("../images/checkmark-round-whiteOnGreen2.jpg");
+
+  font-size: 18pt;
+
+}
+
+div#mainContent ul.train ul.traininner {
+
+  padding-left: 20px;
+
+  list-style-image: url("../images/checkmark-round-whiteOnGreen2.jpg");
+
+}
+
+div#mainContent ul.train ul.traininner li {
+
+  padding: 5px 0;
+
+}
+
+div#mainContent ul.train p.trainServiceDesc {
+
+  padding: 20px 0;
+
+  font-size: 20pt;
+
+}
+
+/* IT SERVICES */
+
+/* GET IN TOUCH */
+
+div#contactPageRight {
+
+  float: right;
+
+  width: 400px;
+
+}
+
+div#contactPageRight div#googleMap {
+
+  width: 400px;
+
+  height: 400px;
+
+  margin-top: 25px;
+
+  background-color: #CCC;
+
+}
+
+div#contactPageRight div#contactInfo {
+
+  background: #87f1eb;
+
+  border: 1px solid black;
+
+  padding: 5px;
+
+  font-size: 20px;
+
+}
+
+div#contactPageRight div#contactInfo a:link,
+div#contactPageRight div#contactInfo a:visited {
+
+  color: blue;
+
+}
+
+div#contactPageRight div#contactInfo a:hover {
+
+  color: blue;
+
+}
+
+div#contactPageRight div#contactInfo a:active {
+
+  background: none;
+
+  color: black;
+
+}
+
+div#contactPageLeft {
+
+  float: left;
+
+  margin-bottom: 20px;
+
+  border: 1px solid black;
+
+  padding: 15px;
+
+  width: 455px;
+
+  height: 740px;
+
+  background: #d7d7d7;
+
+  font-size: 18px;
+
+}
+
+div#contactPageLeft div#contactInstructions h3 {
+
+  padding: 10px 0;
+
+}
+
+div#contactPageLeft div#contactInstructions p {
+
+  padding: 10px 0 10px;
+
+}
+
+div#contactPageLeft div.col1 {
+
+  display: block;
+
+  float: left;
+
+  width: 220px;
+
+}
+
+div#contactPageLeft div.col2 {
+
+  display: block;
+
+  float: right;
+
+  width: 220px;
+
+}
+
+div#contactPageLeft div.col12 {
+
+  display: block;
+
+  clear: both;
+
+  width: 450px;
+
+}
+
+div#contactPageLeft label {
+
+  display: block;
+
+  font-weight: bold;
+
+  padding: 20px 0 10px; 
+
+}
+
+div#contactPageLeft label span.required {
+
+  color: red;
+
+}
+
+div#contactPageLeft input[type="text"],
+div#contactPageLeft input[type="email"],
+div#contactPageLeft input[type="tel"] {
+
+  border: 1px solid black;
+
+  width: 220px;
+
+  height: 25px;
+
+}
+
+div#contactPageLeft input[type="file"] {
+
+}
+
+div#contactPageLeft textarea {
+
+  display: block;
+
+  border: 1px solid black;
+
+  width: 100%;
+
+  height: 12em;
+
+}
+
+div#contactPageLeft input[type="submit"] {
+
+  width: 130px;
+
+  height: 40px;
+
+  margin-top: 20px;
+
+  border: 1px solid black;
+
+  background: yellow;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+}
+
+.error {
+
+  color: red;
+
+}
+
+.success {
+
+  color: green;
+
+}

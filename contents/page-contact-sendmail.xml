@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <mailSentSuccess>
+    <it>
+Grazie per la vostra e-mail.
+    </it>
+    <en>
+Thank you for your e-mail.
+    </en>
+  </mailSentSuccess>
+  <mailSentFailure>
+    <it>
+Si è verificato un errore. La mail non è stata inviata.
+    </it>
+    <en>
+An error has been encountered. Your message has not been sent.
+    </en>
+  </mailSentFailure>
+</contentSection>

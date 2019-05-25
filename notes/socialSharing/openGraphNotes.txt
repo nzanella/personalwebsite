@@ -1,0 +1,29 @@
+
+---
+
+According to this page: `https://developers.facebook.com/docs/plugins/share-button`, normally, Facebook only scrapes your site for Open Graph information once a day. You need to manually go to the Facebook Debugger Tool `https://developers.facebook.com/tools/debug/` and paste your URL into the box and click on the `Debug button` and then on the `Fetch new scrape information` button each time you update your page's Open Graph information to see the updates in the Facebook sharer page once you update your HTML.
+
+---
+
+Sharing Best Practices for Websites
+
+https://developers.facebook.com/docs/sharing/best-practices#images
+
+og:image – This is an image associated with your media. We suggest that you use an image of at least 1200x630 pixels.
+
+Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images.
+
+---
+
+How to clear the Facebook Open Graph Cache for a site:
+
+Go to http://developers.facebook.com/tools/debug
+Enter the URL following by fbrefresh=CAN_BE_ANYTHING
+Examples:
+
+http://www.example.com?fbrefresh=CAN_BE_ANYTHING
+
+SOURCE: http://stackoverflow.com/questions/5776567/facebook-open-graph-not-clearing-cache
+
+---
+

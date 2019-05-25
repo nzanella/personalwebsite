@@ -1,0 +1,13 @@
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/\321%81ка\321%87а\321%82\321%8C': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/\321%83\321%81\321%82н\321%8Bй-пе\321%80евод': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/заве\321%80ение': Protocol error
+cp: cannot create regular file `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/к\321%83\321%80\321%81-англий\321%81кого.1': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/ново\321%81\321%82и': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/к\321%83\321%80\321%81-англий\321%81кого': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/ка\321%80\321%82а-\321%81ай\321%82а': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/подпи\321%88и\321%82е\321%81\321%8C-на-на\321%88\321%83-\321%80а\321%81\321%81\321%8Bлк\321%83': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/category/ново\321%81\321%82и': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/пи\321%81\321%8Cменн\321%8Bй-пе\321%80евод': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/\321%81в\321%8Fзи': Protocol error
+cp: cannot create directory `/mnt/Desktop/WebSites/foo/www.johndoeandjanedoe.com/ru/\321%83п\321%80авление-подпи\321%81ками': Protocol error
+

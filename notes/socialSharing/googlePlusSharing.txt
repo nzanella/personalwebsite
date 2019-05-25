@@ -1,0 +1,18 @@
+http://sproutsocial.com/insights/social-media-image-sizes-guide/#google+
+https://developers.google.com/+/web/share/
+https://developers.google.com/+/web/share/#sharelink-endpoint
+
+https://developers.google.com/+/web/share/#available-languages
+
+Google Plus will use schema.org and then Open Graph only if schema.org is not found:
+http://schema.org/
+https://developers.google.com/+/web/snippet/
+Schema.org microdata (recommended)
+http://stackoverflow.com/questions/4158876/html5-what-is-the-itemscope-attribute-and-what-does-it-do-in-laymans-terms/4158959#4158959
+http://www.w3.org/TR/microdata/#attr-itemscope
+
+Google+ Meta-Data (etc...) Validator:
+http://www.google.com/webmasters/tools/richsnippets
+
+Cache-Control HTTP Header Information:
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#invalidating-and-updating-cached-responses

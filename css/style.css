@@ -1,0 +1,318 @@
+
+@font-face {
+
+    font-family: mesmerizeCdBkItFont;
+
+    src: url("../fonts/mesmerize-cd-bk-it.ttf");
+
+}
+
+* {
+
+  margin: 0;
+  
+  border: 0;
+  
+  padding: 0;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+body {
+
+  background: #6c6c6c;
+
+}
+
+div#wrapper {
+
+  margin: 0 auto;
+
+  width: 960px;
+
+}
+
+header {
+
+  margin-top: 22px;
+
+  height: 230px;
+
+  background: black;
+
+}
+
+header div#siteLogo {
+
+  float: left;
+
+  width: 230px;
+
+  height: 230px;
+
+}
+
+header div#headerRight {
+
+  float: left;
+
+  width: 730px;
+
+  height: 230px;
+
+}
+
+header div#headerRight div#headerRightTop {
+
+  height: 80px;
+
+  background: yellow;
+
+}
+
+header div#headerRight div#headerRightTop h1 {
+
+  float: left;
+
+  padding: 12px 0 12px 180px;
+
+  font-family: mesmerizeCdBkItFont, "Times New Roman", sans-serif;
+
+  font-size: 42px;
+
+  word-spacing: 20px;
+
+}
+
+header div#headerRight div#headerRightTop h1 a {
+
+  color: black;
+
+}
+
+header div#headerRight div#headerRightTop nav#languageChoice {
+
+  float: right;
+
+  margin: 15px;
+
+  width: 135px;
+
+  height: 50px;
+
+  background: black;
+
+}
+
+header div#headerRight div#headerRightTop nav#languageChoice ul li.languageItem {
+
+  float: left;
+
+  display: block;
+
+  padding: 10px 0 10px 15px;
+
+}
+
+header div#headerRight div#headerRightMiddle {
+
+  height: 80px;
+
+  background: red;
+
+}
+
+header div#headerRight div#headerRightBottom {
+
+  height: 70px;
+
+  background: blue;
+
+}
+
+header div#headerRight div#headerRightMiddle nav {
+
+  margin-left: 10px;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li {
+
+  display: block;
+
+  float: left;
+
+  padding: 28px 0 0 18px;
+
+  font-size: 14pt;
+
+  text-transform: uppercase;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li[lang="it"] {
+
+  font-size: 13pt;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li[lang="en"] {
+
+  font-size: 14pt;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li a:link,
+header div#headerRight div#headerRightMiddle nav ul li a:visited {
+
+  color: blue;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li a:hover {
+
+  color: #339933;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li a:active {
+
+  background: none;
+
+  color: white;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li.selected a:link,
+header div#headerRight div#headerRightMiddle nav ul li.selected a:visited {
+
+  color: black;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li.selected a:hover {
+
+  color: #993399;
+
+}
+
+header div#headerRight div#headerRightMiddle nav ul li.selected a:active {
+
+  background: none;
+
+  color: white;
+
+}
+
+header div#headerRight div#headerRightBottom nav {
+
+  margin-left: 10px;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li {
+
+  display: block;
+
+  float: left;
+
+  padding: 28px 0 0 18px;
+
+  font-size: 13pt;
+
+  text-transform: uppercase;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li a:link,
+header div#headerRight div#headerRightBottom nav ul li a:visited {
+
+  color: white;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li a:hover {
+
+  background: purple;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li a:active {
+
+  color: black;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li.selected a:link,
+header div#headerRight div#headerRightBottom nav ul li.selected a:visited {
+
+  color: black;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li.selected a:hover {
+
+  background: purple;
+
+}
+
+header div#headerRight div#headerRightBottom nav ul li.selected a:active {
+
+  color: white;
+
+}
+
+footer {
+
+  clear: both;
+
+  height: 80px;
+
+  padding-top: 20px;
+
+  background: black;
+
+}
+
+footer ul.footerLinks {
+
+  float: left;
+
+  color: white;
+
+  font-size: 12pt;
+
+}
+
+footer ul.footerLinks li {
+
+  padding: 0 0 5px 20px;
+
+}
+
+footer ul.socialLinks {
+
+  float: right;
+
+}
+
+footer ul.socialLinks li {
+
+  float: left;
+
+  padding-right: 10px;
+
+}
+
+

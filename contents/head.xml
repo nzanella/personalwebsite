@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <pageTitle>
+    <it>
+Neil Glen Zanella | Servizi professionali linguistici ed informatici Padova
+    </it>
+    <en>
+Neil Glen Zanella | Professional Language and IT Services Padua, Italy
+    </en>
+  </pageTitle>
+  <metaDescription>
+    <it>
+Neil Glen Zanella è una ditta specializzata nei servizi di traduzione dall'Italiano all'Inglese e viceversa. Offriamo anche lezioni di Inglese, servizi di sviluppo software, lezioni di informatica, e lezioni di matematica.
+    </it>
+    <en>
+Neil Glen Zanella is a business firm focusing on language translation services (Italian to English and vice versa) while also providing English lessons, Italian lessons, software development services, computer programming lessons, and mathematics lessons.
+    </en>
+  </metaDescription>
+  <metaKeywords>
+    <it>
+Traduzioni dall'Italiano all'Inglese e dall'Inglese all'Italiano e sviluppo software Padova" />
+    </it>
+    <en>
+Italian to English and English to Italian Language Translations and Software Development Padua, Italy
+    </en>
+  </metaKeywords>
+  <ogTitle maxChars="70"><!-- 70 is the maximum number of characters allowed in a Twitter title -->
+    <it>
+Neil Glen Zanella - Servizi professionali di traduzione ed informatica
+    </it>
+    <en>
+Neil Glen Zanella - Professional Language Translation and IT Services
+    </en>
+  </ogTitle>
+  <ogDescription maxChars="200"><!-- 200 is the maximum number of characters allowed in a Twitter description -->
+    <it>
+Operiamo nel settore dei servizi professionali di traduzione e di sviluppo software dal 2004.
+    </it>
+    <en>
+Delivering professional language translation and software development services since 2004.
+    </en>
+  </ogDescription>
+  <!-- Facebook Locales from https://www.facebook.com/translations/FacebookLocales.xml -->
+  <ogLocale>
+    <it>
+it_IT
+    </it>
+    <en>
+en_GB
+    </en>
+  </ogLocale>
+  <linkedInSource maxChars="200">
+${pageTitle}
+  </linkedInSource>
+  <linkedInSummary maxChars="256">
+${metaDescription}
+  </linkedInSummary>
+  <googlePlusLanguageCode>
+    <it>
+it
+    </it>
+    <en>
+en-GB
+    </en>
+  </googlePlusLanguageCode>
+  <!--
+  <contentName>
+    <it>
+    </it>
+    <en>
+    </en>
+  </contentName>
+  -->
+</contentSection>

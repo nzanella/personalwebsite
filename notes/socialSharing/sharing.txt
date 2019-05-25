@@ -1,0 +1,63 @@
+
+All SNS Sites:
+http://www.rimmkaufman.com/blog/optimizing-link-social-snippets/25092012/
+
+---
+
+Facebook:
+
+https://developers.facebook.com/docs/web/share
+
+http://www.joshuawinn.com/facebooks-sharer-php-longer-deprecated-2014/
+
+https://developers.facebook.com/tools/debug/og/object/
+
+https://developers.facebook.com/docs/opengraph/getting-started
+
+http://ogp.me/
+
+---
+
+Twitter:
+
+Twitter Cards
+https://dev.twitter.com/cards/overview
+Twitter Card Validator:
+https://cards-dev.twitter.com/validator
+
+Summary Card:
+blog posts and news articles
+give the reader a preview of the content before clicking through to your website.
+
+Summary Card with Large Image:
+Our system recognizes when URLs are included in a tweet, and crawls your site to fetch the Card type and content.
+https://dev.twitter.com/cards/types/summary-large-image
+
+Only one card per-page is supported.
+
+Your content is cached by Twitter for 7 days after a link to your page with card markup has been published in a tweet.
+https://dev.twitter.com/cards/troubleshooting
+
+twitter:image
+URL to a unique image representing the content of the page.
+Do not use a generic image such as your website logo, author photo,
+or other image that spans multiple pages.
+Images for this Card should be at least 280px in width,
+and at least 150px in height. Image must be less than 1MB in size.
+
+Tweeting a page:
+https://about.twitter.com/resources/buttons
+
+Making your own Custom Tweet Button
+https://dev.twitter.com/web/tweet-button
+
+---
+
+LinkedIn
+
+Google+
+
+Pinterest
+
+---
+

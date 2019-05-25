@@ -1,0 +1,6 @@
+https://developer.linkedin.com/documents/share-linkedin
+(however, it seems the maxChars for the 'summary' parameter is 249 and not 256!
+
+How to Clear the LinkedIn Cache:
+https://developer.linkedin.com/forum/how-clear-linkedin-cache
+

@@ -1,0 +1,190 @@
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.forestGreen {
+  color: #546b1d;
+}
+
+.brightWhite {
+  color: white;
+}
+
+.sunflowerYellow {
+  color: #dfb115;
+}
+
+.algaeGreen {
+  color: #c3e225;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background-color: #6c6c6c;
+}
+
+div#wrapper {
+  margin: 0 auto;
+  width: 775px;
+  height: 680px;
+  background-image: url("../images/backgroundBird.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+header {
+  float: left;
+  width: 775px /* header width equal to container width */;
+  height: 206px; /* (204px to bottom of gray area) + (2px list bottom margin) */
+}
+
+div#headerLeft {
+  float: left;
+  margin-top: 37px;
+  margin-left: 53px;
+  width: 482px; /* (535px headerLeft total width) - (53px left margin) */
+}
+
+h1, h2 {
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 28px; /* 40pt */
+}
+
+h2 {
+  text-indent: 4px;
+  font-size: 12px; /* 23pt */
+}
+
+nav {
+  float: left;
+  width: 240px; /* (775px header width equal to container width) - (535px headerLeft total width) */
+}
+
+nav ul {
+  list-style-position: inside;
+  list-style-image: url("../images/menuBullet.png");
+  width 240px;
+}
+
+nav ul li {
+  margin: 2px;
+  height: 38px;
+  background: #323232;
+  position: relative;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  top: 8px;
+  left: 31px; /* bullet width */
+}
+
+div#mainContent {
+  clear: both;
+  float: right;
+  margin-top: 19px;
+  border-bottom: 6px solid #323232;
+  width: 775px; /* main content width equal to container width */
+  height: 380px;
+  text-align: right;
+}
+
+div#mainContent div.animalInfo { /* paragraphs and animal info links found within */
+  margin-right: 22px;
+  padding-top: 16px;
+  padding-bottom: 23px;
+  background: url("../images/spacer.png") no-repeat right bottom;
+  font-size: 9px;
+}
+
+div#mainContent div.animalInfo:last-child {
+  background: none;
+}
+
+div#mainContent div.animalInfo h3 {
+  margin: 0 3px 24px 0;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+div.animalInfoText {
+  width: 636px; /* 636px: 775px (container width) - 8px (image left margin) - 103px (image width) -6px (image border x 2) - 22px (animalInfo right margin) */
+}
+
+div#mainContent div.animalInfo img {
+  float: right;
+  margin-left: 8px;
+  border: 3px solid yellow;
+}
+
+div#mainContent div.animalInfo p {
+  margin-bottom: 16px;
+}
+
+div#mainContent div.animalInfoText a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+div#mainContent div.animalInfoLinks {
+  margin-left: 399px;
+  text-align: left;
+}
+
+div#mainContent div.animalInfoLinks a {
+  text-decoration: underline;
+}
+
+div#mainContent div.animalInfoLinks ul {
+  list-style-image: url("../images/animalLinksBullet.png");
+}
+
+footer {
+  clear: both;
+  float: left;
+  margin-left: 31px;
+  width: 744px; /* 775px (container width) minus left margin */;
+  height: 68px;
+  background: black;
+  font-size: 8px;
+}
+
+footer div#footerLinks {
+  margin-top: 16px;
+}
+
+footer div#footerLinks ul {
+  list-style-type: none;
+}
+
+footer div#footerLinks ul li {
+  display: inline-block;
+}
+
+footer div#footerLinks ul li + li:before {
+  content: " | ";
+}
+
+footer div#footerLinks a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer div#copyrightInfo {
+  margin-top: 12px;
+}

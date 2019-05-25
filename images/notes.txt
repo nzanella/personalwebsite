@@ -1,0 +1,1 @@
+- Chrome will not display the favicon.ico unless it is named favicon.ico.

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <mathtrainTopParagraph>
+    <it>
+Offriamo servizi di tutoraggio nelle seguenti aree matematiche:
+    </it>
+    <en>
+We offer tutoring services in the following areas of mathematics:
+    </en>
+  </mathtrainTopParagraph>
+  <mathtrainLI1>
+    <it>
+Algebra e trigonometria.
+    </it>
+    <en>
+Algebra and Trigonometry
+    </en>
+  </mathtrainLI1>
+  <mathtrainLI2>
+    <it>
+Teoria degli insiemi e logica.
+    </it>
+    <en>
+Set theory and Logic
+    </en>
+  </mathtrainLI2>
+  <mathtrainLI3>
+    <it>
+Matematica discreta e teoria dei grafici.
+    </it>
+    <en>
+Discrete Mathematics and Graph Theory
+    </en>
+  </mathtrainLI3>
+  <mathtrainLI4>
+    <it>
+Calcolo differenziale e integrale e analisi matematica.
+    </it>
+    <en>
+Differential and Integral Calculus and Mathematical Analysis
+    </en>
+  </mathtrainLI4>
+  <mathtrainLI5>
+    <it>
+Teoria della probabilità e statistica.
+    </it>
+    <en>
+Probability Theory and Statistics
+    </en>
+  </mathtrainLI5>
+  <mathtrainLI6>
+    <it>
+Matematica dell'economia e della finanza.
+    </it>
+    <en>
+Financial and Economics Mathematics
+    </en>
+  </mathtrainLI6>
+  <mathtrainLI7>
+    <it>
+Matematica ingegneristica.
+    </it>
+    <en>
+Engineering Mathematics
+    </en>
+  </mathtrainLI7>
+  <mathtrainLI8>
+    <it>
+Aree più avanzate o specializzate.
+    </it>
+    <en>
+More Advanced or Specialized Areas
+    </en>
+  </mathtrainLI8>
+</contentSection>

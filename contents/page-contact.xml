@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <contactUs>
+    <it>
+Contattaci
+    </it>
+    <en>
+Contact us
+    </en>
+  </contactUs>
+  <formInstructions>
+    <it>
+Per inviarci un ordine di lavoro o per qualsiasi richiesta, compilare il modulo qui sotto.
+    </it>
+    <en>
+To send us a work order or request, fill in the form below.
+    </en>
+  </formInstructions>
+  <formMandatoryFields>
+    <it>
+I campi contrassegnati con l'asterisco (*) sono obbligatori.
+    </it>
+    <en>
+All fields marked with an asterisk (*) are mandatory.
+    </en>
+  </formMandatoryFields>
+  <firstname>
+    <it>
+Nome
+    </it>
+    <en>
+Firstname
+    </en>
+  </firstname>
+  <lastname>
+    <it>
+Cognome
+    </it>
+    <en>
+Lastname
+    </en>
+  </lastname>
+  <address>
+    <it>
+Indirizzo
+    </it>
+    <en>
+Address
+    </en>
+  </address>
+  <city>
+    <it>
+Città
+    </it>
+    <en>
+City
+    </en>
+  </city>
+  <email>
+    <it>
+Email
+    </it>
+    <en>
+Email
+    </en>
+  </email>
+  <phone>
+    <it>
+Telefono
+    </it>
+    <en>
+Phone
+    </en>
+  </phone>
+  <addAttachment>
+    <it>
+Allega documento
+    </it>
+    <en>
+Add Attachment
+    </en>
+  </addAttachment>
+  <message>
+    <it>
+Messaggio
+    </it>
+    <en>
+Message
+    </en>
+  </message>
+  <send>
+    <it>
+Invia
+    </it>
+    <en>
+Send
+    </en>
+  </send>
+  <companyDescription>
+    <it>
+Ditta di traduzioni e proofreading 
+    </it>
+    <en>
+Translations and Proofreading
+    </en>
+  </companyDescription>
+  <office>
+    <it>
+Sede
+    </it>
+    <en>
+Office
+    </en>
+  </office>
+  <getInTouchButton>
+    <it>
+Contatta
+    </it>
+    <en>
+Get in Touch
+    </en>
+  </getInTouchButton>
+</contentSection>

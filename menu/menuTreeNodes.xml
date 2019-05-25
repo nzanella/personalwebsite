@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     This file contains a tree hierarchy of slug components corresponding to the main content to be displayed when a
+     menu link is clicked. For each such slug component a slug name for each language supported by the site is given.
+     Each page may link to other pages by means of further slug components and such mappings are specified in pageSlugs.xml.
+     Content names for menu entries as well as names of pages to be displayed when a menu entry is pressed can also be
+     generated from this file as follows:
+
+     - The content name is generated automatically from the XML node name as follows:
+
+      $contentName = "page" . ("MenuItem" . $xmlElementName1) . "Sub" . ("MenuItem" $xmlElementName2) . ("Sub" . "Sub" . "MenuItem . $xmlElementName3 . "...");
+
+     - The page name corresponding to the leaf node to for the HTML to be generated for the main content area is generated as follows:
+
+     $pageName = "page" . ("-" . $xmlElementName0) . ("-" . $xmlElementName1) . ("...") . ".php";
+
+     We can parse this file as a tree where each node has a slug component as its name and a language to slug name array as its value.
+     The other properties (contentName leading to localized menu item names and menuItemLinkURL can be computed as methods of subclass MenuTreeNode of class TreeNode.
+
+     IMPLEMENTATION DETAILS:
+
+     - first build the tree, parsing XML
+     - then traverse the tree with any iterator, and store the URL in the node as:
+       - if using slugs
+         - a URL http://neilzanella.com/menuItemSlugComponent0/menuItemSlugComponent1/mainContentPageSlugComponent/
+       - if using not using slugs (non SEO/testing mode):
+         - a URL http://neilzanella.com/?page=menuItemSlugComponent0-menuItemSlugComponent1-mainContentPageSlugComponent
+     - Done (we store the menuTreeRoot as a global variable).
+
+     - then, inside site-mainContent.php, we must call a function from settings to parse the URL (slug or not),
+       and traverse the MenuTreeNode structure based on such parsed URL and in such way find the page to display.
+-->
+<menu>
+  <home>
+    <slug_it><!-- intentionally omitted --></slug_it>
+    <slug_en><!-- intentionally omitted --></slug_en>
+  </home>
+  <about>
+    <slug_it>about</slug_it>
+    <slug_en>about</slug_en>
+    <languages>
+      <slug_it>lingue</slug_it>
+      <slug_en>languages</slug_en>
+    </languages>
+    <computers>
+      <slug_it>informatica</slug_it>
+      <slug_en>computer-science</slug_en>
+    </computers>
+  </about>
+  <langserv>
+    <slug_it>servizi-linguistici</slug_it>
+    <slug_en>language-services</slug_en>
+    <translations>
+      <slug_it>servizi-di-traduzione-dall-italiano-all-inglese</slug_it>
+      <slug_en>english-to-italian-translation-services</slug_en>
+    </translations>
+    <training>
+      <slug_it>corsi-e-lezioni-di-lingua-inglese</slug_it>
+      <slug_en>italian-as-a-second-language-lessons</slug_en>
+    </training>
+  </langserv>
+  <compserv>
+    <slug_it>servizi-di-informatica</slug_it>
+    <slug_en>it-services</slug_en>
+    <comptraining>
+      <slug_it>corsi-e-lezioni-private-di-informatica</slug_it>
+      <slug_en>computer-science-courses-and-private-lessons</slug_en>
+    </comptraining>
+    <mathtraining>
+      <slug_it>lezioni-private-di-matematica</slug_it>
+      <slug_en>mathematics-private-lessons</slug_en>
+    </mathtraining>
+<!--
+    <development>
+      <slug_it>servizi-di-programmazione-informatica-e-graphic-design</slug_it>
+      <slug_en>computer-programming-and-design-services</slug_en>
+    </development>
+-->
+  </compserv>
+<!--
+  <news>
+    <slug_it>news</slug_it>
+    <slug_en>news</slug_en>
+  </news>
+-->
+  <contact>
+    <slug_it>contatta</slug_it>
+    <slug_en>get-in-touch</slug_en>
+  </contact>
+</menu>

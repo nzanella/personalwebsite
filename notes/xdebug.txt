@@ -1,0 +1,15 @@
+C:\xampp\php\php.ini:
+
+uncomment:
+zend_extension = "C:\xampp\php\ext\php_xdebug.dll"
+
+uncomment and set:
+xdebug.remote_enable = 1
+
+restart Apache
+
+In Eclipse, check out Windows | Preferences | PHP | Debug.
+
+Click on the Debug icon, go to Debug Configurations | PHP Web Application and set XDebug as the debugger.
+
+Right-click on index.php and debug as PHP Web Application.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentSections>
+  <contentSection name="head.xml" />
+  <contentSection name="header.xml" />
+  <contentSection name="page-home.xml" />
+  <contentSection name="page-about.xml" />
+  <contentSection name="page-langservtrans.xml" /><!-- SLUG: professional-translation-service -->
+  <contentSection name="page-langservtrain.xml" /><!-- SLUG: second-language-training-courses -->
+  <contentSection name="page-softservdevel.xml" /><!-- SLUG: computer-programming-and-design-services -->
+  <contentSection name="page-softservtraincomp.xml" /><!-- SLUG: information-technology-training-services -->
+  <contentSection name="page-softservtrainmath.xml" /><!-- SLUG: information-technology-training-services -->
+  <contentSection name="page-contact.xml" />
+  <contentSection name="footer.xml" />
+</contentSections>

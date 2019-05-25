@@ -1,0 +1,28 @@
+
+Getting Started (XAMPP):
+
+Download and install XAMPP in C:\xampp .
+
+In the search box type cmd, right click on the cmd icon that shows up and select "run as administrator" from the drop-down menu.
+
+C:>\Windows\system32>net user administrator /active:yes
+
+From the control panel set the password for the now active Administrator user.
+
+Reboot the system.
+
+1. On the Start menu, locate the program that you want to always run as an administrator. 
+2. Right-click the application’s shortcut, and then click Properties. 
+3. In the Properties dialog box, click the Compatibility tab. 
+4. Do one of the following: 
+To apply the setting to the currently logged-on user, select the Run This Program As An Administrator check box, and then click OK.
+To apply the setting to all users on the computer and regardless of which shortcut is used to start the application, click Change Setting For All Users to display the Properties dialog box for the application’s .exe file, select the Run This Program As An Administrator check box, and then click OK twice.
+
+
+--------------------------------------------------------------------------------
+
+Getting Started (Folder Options):
+
+Control Panel -> Folder Options -> View tab -> unckeck Nascondi le estensioni per i tipi di file conosciuti
+
+--------------------------------------------------------------------------------

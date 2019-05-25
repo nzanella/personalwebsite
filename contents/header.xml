@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <pageContentLanguage>
+    <it>
+Italiano
+    </it>
+    <en>
+English
+    </en>
+  </pageContentLanguage>
+  <pageMenuItem_home>
+    <it>
+Home
+    </it>
+    <en>
+Home
+    </en>
+  </pageMenuItem_home>
+  <pageMenuItem_about>
+    <it>
+Chi Sono
+    </it>
+    <en>
+About
+    </en>
+  </pageMenuItem_about>
+  <pageMenuItem_about_languages>
+    <it>
+Lingue
+    </it>
+    <en>
+Languages
+    </en>
+  </pageMenuItem_about_languages>
+  <pageMenuItem_about_computers>
+    <it>
+Informatica
+    </it>
+    <en>
+Computers
+    </en>
+  </pageMenuItem_about_computers>
+  <pageMenuItem_langserv>
+    <it>
+Servizi Linguistici
+    </it>
+    <en>
+Language Services
+    </en>
+  </pageMenuItem_langserv>
+  <pageMenuItem_langserv_translations>
+    <it>
+Traduzioni
+    </it>
+    <en>
+Translations
+    </en>
+  </pageMenuItem_langserv_translations>
+  <pageMenuItem_langserv_training>
+    <it>
+Lezioni di Inglese
+    </it>
+    <en>
+Italian Lessons
+    </en>
+  </pageMenuItem_langserv_training>
+  <pageMenuItem_compserv>
+    <it>
+Servizi Informatici
+    </it>
+    <en>
+IT Services
+    </en>
+  </pageMenuItem_compserv>
+  <pageMenuItem_compserv_development>
+    <it>
+Esempi Codice
+    </it>
+    <en>
+Code Samples
+    </en>
+  </pageMenuItem_compserv_development>
+  <pageMenuItem_compserv_comptraining>
+    <it>
+Lezioni di informatica
+    </it>
+    <en>
+Comp. Sci. Lessons
+    </en>
+  </pageMenuItem_compserv_comptraining>
+  <pageMenuItem_compserv_mathtraining>
+    <it>
+Lezioni di matematica
+    </it>
+    <en>
+Mathematics lessons
+    </en>
+  </pageMenuItem_compserv_mathtraining>
+  <pageMenuItem_contact>
+    <it>
+Contatta
+    </it>
+    <en>
+Get in Touch
+    </en>
+  </pageMenuItem_contact>
+  <!--
+  <contentName>
+    <it>
+    </it>
+    <en>
+    </en>
+  </contentName>
+  -->
+</contentSection>

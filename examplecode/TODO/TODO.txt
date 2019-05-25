@@ -1,0 +1,1 @@
+Use a script to turn everything all code including the e-mail into an image, and require creating an account/logging in to see email (and the rest of the code) in plain-text (where it can also be cutted and pasted).

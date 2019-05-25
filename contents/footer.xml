@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <siteMap>
+    <it>
+Mappa del sito
+    </it>
+    <en>
+Site Map
+    </en>
+  </siteMap>
+  <privacyPolicy>
+    <it>
+Privacy policy
+    </it>
+    <en>
+Privacy Policy
+    </en>
+  </privacyPolicy>
+  <shareOnFacebook>
+    <it>
+Condividi su Facebook
+    </it>
+    <en>
+Share on Facebook
+    </en>
+  </shareOnFacebook>
+  <shareOnTwitter>
+    <it>
+Condividi su Twitter
+    </it>
+    <en>
+Share on Twitter
+    </en>
+  </shareOnTwitter>
+  <shareOnLinkedIn>
+    <it>
+Condividi su LinkedIn
+    </it>
+    <en>
+Share on LinkedIn
+    </en>
+  </shareOnLinkedIn>
+  <shareOnGooglePlus>
+    <it>
+Condividi su Google+
+    </it>
+    <en>
+Share on Google+
+    </en>
+  </shareOnGooglePlus>
+ <shareOnPinterest>
+    <it>
+Condividi su Pinterest
+    </it>
+    <en>
+Share on Pinterest
+    </en>
+  </shareOnPinterest>
+  <!--
+  <contentName>
+    <it>
+    </it>
+    <en>
+    </en>
+  </contentName>
+  -->
+</contentSection>

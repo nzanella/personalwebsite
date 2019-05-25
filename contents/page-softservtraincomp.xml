@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contentSection>
+  <comptrainTopParagraph>
+    <it>
+Offriamo lezioni private e di gruppo nei seguenti settori informatici:
+    </it>
+    <en>
+We offer private and group lessons in the following areas of computer science:
+    </en>
+  </comptrainTopParagraph>
+  <comptrainLI1>
+    <it>
+Sviluppo web usando le seguenti tecnologie:
+    </it>
+    <en>
+Web Development using the following technologies:
+    </en>
+  </comptrainLI1>
+  <comptrainLI2>
+    <it>
+Come programmare usando i seguenti linguaggi di programmazione:
+    </it>
+    <en>
+How to write computer programs using the following programming languages:
+    </en>
+  </comptrainLI2>
+  <comptrainLI3>
+    <it>
+Sviluppo mobile sulla piattaforma Android.
+    </it>
+    <en>
+Mobile programming on the Android platform.
+    </en>
+  </comptrainLI3>
+  <comptrainLI4>
+    <it>
+Strutture dati e algoritmi ed altre aree informatiche più teoretiche.
+    </it>
+    <en>
+Data structures and algorithms and other more theoretical areas of computer science.
+    </en>
+  </comptrainLI4>
+</contentSection>

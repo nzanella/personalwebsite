@@ -1,0 +1,11 @@
+https://business.pinterest.com/en/pin-it-button
+
+Here are the code docs for the Pin It button:
+https://developers.pinterest.com/pin_it/
+(no specific rich pin available for plain websites):
+https://developers.pinterest.com/rich_pins_overview/
+
+Use images at least 750 pixels wide
+It's always a letdown for people when they see an image they love in the preview form, but it comes out as a tiny thumbnail on Pinterest. For best results, Pins should come from source images that are at least 750 pixels wide. The images don't have to appear that big on your page. They just need to appear at that size in the media URL.
+
+---
