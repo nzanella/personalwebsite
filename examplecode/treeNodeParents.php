@@ -105,11 +105,11 @@
 
       $parentNode = $outputParentTreeNodeIterator->current();
       
-      $parentAwareTreeNode = ParentAwareTreeNode::createChildlessParentAwareTreeNodeFromTreeNode($currentNode, $parentNode);
+      $parentAwareTreeNode = ParentAwareTreeNodeFactory::createChildlessParentAwareTreeNodeFromTreeNode($currentNode, $parentNode);
 
     } else {
 
-      $parentAwareTreeNode = ParentAwareTreeNode::createChildlessParentAwareTreeNodeFromTreeNode($currentNode, null);
+      $parentAwareTreeNode = ParentAwareTreeNodeFactory::createChildlessParentAwareTreeNodeFromTreeNode($currentNode, null);
 
     }
 
