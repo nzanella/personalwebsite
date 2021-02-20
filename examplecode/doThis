@@ -1,0 +1,9 @@
+use treeNodeParents
+
+to make a PHP file manager
+
+where you navigate clicking on the names of nodes
+and on each page you can click on a sibling or click "UP" to view the parent in the file manager
+
+questo servira' come materiale didattico
+
