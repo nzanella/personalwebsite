@@ -13,79 +13,79 @@
 
   function createTestTreeInstance() {
 
-    return TreeNode::createNamelessNonLeafNode(array(
-      TreeNode::createNonLeafNode("node1", array(
-        TreeNode::createNonLeafNode("node11", array(
-          TreeNode::createLeafNode("node111", "The"),
+    return TreeNodeFactory::createNamelessNonLeafNode(array(
+      TreeNodeFactory::createNonLeafNode("node1", array(
+        TreeNodeFactory::createNonLeafNode("node11", array(
+          TreeNodeFactory::createLeafNode("node111", "The"),
         )),
-        TreeNode::createNonLeafNode("node12", array(
-          TreeNode::createLeafNode("node121", "fishermen"),
-          TreeNode::createLeafNode("node122", "know"),
+        TreeNodeFactory::createNonLeafNode("node12", array(
+          TreeNodeFactory::createLeafNode("node121", "fishermen"),
+          TreeNodeFactory::createLeafNode("node122", "know"),
         )),
-        TreeNode::createNonLeafNode("node13", array(
-          TreeNode::createLeafNode("node131", "that"),
-          TreeNode::createNonLeafNode("node132", array(
-            TreeNode::createLeafNode("node1321", "the"),
-            TreeNode::createLeafNode("node1322", "sea"),
-            TreeNode::createLeafNode("node1323", "is"),
-            TreeNode::createLeafNode("node1324", "dangerous"),
+        TreeNodeFactory::createNonLeafNode("node13", array(
+          TreeNodeFactory::createLeafNode("node131", "that"),
+          TreeNodeFactory::createNonLeafNode("node132", array(
+            TreeNodeFactory::createLeafNode("node1321", "the"),
+            TreeNodeFactory::createLeafNode("node1322", "sea"),
+            TreeNodeFactory::createLeafNode("node1323", "is"),
+            TreeNodeFactory::createLeafNode("node1324", "dangerous"),
           )),
         )),
       )),
-      TreeNode::createNonLeafNode("node2", array(
-        TreeNode::createNonLeafNode("node21", array(
-          TreeNode::createNonLeafNode("node211", array(
-            TreeNode::createNonLeafNode("node2111", array(
-              TreeNode::createNonLeafNode("node21111", array(
-                TreeNode::createLeafNode("node211111", "and"),
-                TreeNode::createNonLeafNode("node211112", array(
-                  TreeNode::createNonLeafNode("node2111121", array(
-                    TreeNode::createLeafNode("node21111211", "the"),
+      TreeNodeFactory::createNonLeafNode("node2", array(
+        TreeNodeFactory::createNonLeafNode("node21", array(
+          TreeNodeFactory::createNonLeafNode("node211", array(
+            TreeNodeFactory::createNonLeafNode("node2111", array(
+              TreeNodeFactory::createNonLeafNode("node21111", array(
+                TreeNodeFactory::createLeafNode("node211111", "and"),
+                TreeNodeFactory::createNonLeafNode("node211112", array(
+                  TreeNodeFactory::createNonLeafNode("node2111121", array(
+                    TreeNodeFactory::createLeafNode("node21111211", "the"),
                   )),
                 )),
-                TreeNode::createLeafNode("node211113", "storm"),
-                TreeNode::createNonLeafNode("node211114", array(
-                  TreeNode::createLeafNode("node2111141", "terrible,"),
-                  TreeNode::createLeafNode("node2111142", "but"),
+                TreeNodeFactory::createLeafNode("node211113", "storm"),
+                TreeNodeFactory::createNonLeafNode("node211114", array(
+                  TreeNodeFactory::createLeafNode("node2111141", "terrible,"),
+                  TreeNodeFactory::createLeafNode("node2111142", "but"),
                 )),
-                TreeNode::createLeafNode("node211115", "they"),
+                TreeNodeFactory::createLeafNode("node211115", "they"),
               )),
             )),
           )),
-          TreeNode::createNonLeafNode("node212", array(
-            TreeNode::createLeafNode("node2121", "have"),
-            TreeNode::createLeafNode("node2122", "never"),
-            TreeNode::createLeafNode("node2123", "found"),
-            TreeNode::createLeafNode("node2124", "these"),
+          TreeNodeFactory::createNonLeafNode("node212", array(
+            TreeNodeFactory::createLeafNode("node2121", "have"),
+            TreeNodeFactory::createLeafNode("node2122", "never"),
+            TreeNodeFactory::createLeafNode("node2123", "found"),
+            TreeNodeFactory::createLeafNode("node2124", "these"),
           )),
         )),
       )),
-      TreeNode::createNonLeafNode("node3", array(
-        TreeNode::createNonLeafNode("node31", array(
-          TreeNode::createLeafNode("node311", "dangers"),
+      TreeNodeFactory::createNonLeafNode("node3", array(
+        TreeNodeFactory::createNonLeafNode("node31", array(
+          TreeNodeFactory::createLeafNode("node311", "dangers"),
         )),
-        TreeNode::createLeafNode("node32", "sufficient"),
-        TreeNode::createLeafNode("node33", "reason"),
-        TreeNode::createLeafNode("node34", "for"),
-        TreeNode::createNonLeafNode("node35", array(
-          TreeNode::createLeafNode("node351", "remaining"),
+        TreeNodeFactory::createLeafNode("node32", "sufficient"),
+        TreeNodeFactory::createLeafNode("node33", "reason"),
+        TreeNodeFactory::createLeafNode("node34", "for"),
+        TreeNodeFactory::createNonLeafNode("node35", array(
+          TreeNodeFactory::createLeafNode("node351", "remaining"),
         )),
-        TreeNode::createLeafNode("node36", "ashore..."),
+        TreeNodeFactory::createLeafNode("node36", "ashore..."),
       )),
-      TreeNode::createNonLeafNode("node4", array(
-        TreeNode::createLeafNode("node41", "or"),
-        TreeNode::createLeafNode("node42", "so"),
-        TreeNode::createLeafNode("node43", "goes"),
+      TreeNodeFactory::createNonLeafNode("node4", array(
+        TreeNodeFactory::createLeafNode("node41", "or"),
+        TreeNodeFactory::createLeafNode("node42", "so"),
+        TreeNodeFactory::createLeafNode("node43", "goes"),
       )),
-      TreeNode::createLeafNode("node5", "the"),
-      TreeNode::createLeafNode("node6", "saying."),
+      TreeNodeFactory::createLeafNode("node5", "the"),
+      TreeNodeFactory::createLeafNode("node6", "saying."),
     ));
 
   }
 
   function createTrivialTestTreeInstance() {
 
-    return TreeNode::createLeafNode("node1", "value1");
+    return TreeNodeFactory::createLeafNode("node1", "value1");
 
   }
 

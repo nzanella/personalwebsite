@@ -8,6 +8,46 @@
  * @version v7 (added parent aware tree node class)
  */
 
+class TreeNodeFactory {
+
+  public static function createStubNode() {
+
+    return new TreeNode(null, null, array());
+
+  }
+
+  public static function createNamelessNonleafNode($children) {
+
+    $treeNode = new TreeNode(null, null, $children);
+
+    TreeNode::checkTreeNodeHasChildren($treeNode);
+
+    return $treeNode;
+
+  }
+
+  public static function createNonLeafNode($name, $children) {
+
+    $treeNode = new TreeNode($name, null, $children);
+
+    TreeNode::checkTreeNodeHasChildren($treeNode);
+
+    return $treeNode;
+
+  }
+
+  public static function createLeafNode($name, $value) {
+
+    $treeNode = new TreeNode($name, $value, array());
+
+    TreeNode::checkTreeNodeHasNoChildren($treeNode);
+
+    return $treeNode;
+
+  }
+
+}
+
 class TreeNode {
 
   protected $name;
@@ -18,43 +58,7 @@ class TreeNode {
 
   protected $customData;
 
-  public static function createStubNode() {
-
-    return new static(null, null, array());
-
-  }
-
-  public static function createNamelessNonleafNode($children) {
-
-    $treeNode = new static(null, null, $children);
-
-    self::checkTreeNodeHasChildren($treeNode);
-
-    return $treeNode;
-
-  }
-
-  public static function createNonLeafNode($name, $children) {
-
-    $treeNode = new static($name, null, $children);
-
-    self::checkTreeNodeHasChildren($treeNode);
-
-    return $treeNode;
-
-  }
-
-  public static function createLeafNode($name, $value) {
-
-    $treeNode = new static($name, $value, array());
-
-    self::checkTreeNodeHasNoChildren($treeNode);
-
-    return $treeNode;
-
-  }
-
-  protected function __construct($name, $value, $children) {
+  public function __construct($name, $value, $children) {
 
     $this->setName($name);
 
@@ -450,9 +454,7 @@ class TreeNode {
 
 }
 
-class ParentAwareTreeNode extends TreeNode {
-
-  private $parent;
+class ParentAwareTreeNodeFactory {
 
   public static function createStubNode() {
 
@@ -464,7 +466,9 @@ class ParentAwareTreeNode extends TreeNode {
 
     $parentAwareTreeNode = new ParentAwareTreeNode(null, null, $children, $parent);
 
-    parent::checkTreeNodeHasChildren($parentAwareTreeNode);
+    TreeNode::checkTreeNodeHasChildren($parentAwareTreeNode);
+
+    ParentAwareTreeNode::checkParentAwareTreeNodeHasNoParent($parentAwareTreeNode);
 
     return $parentAwareTreeNode;
 
@@ -474,7 +478,9 @@ class ParentAwareTreeNode extends TreeNode {
 
     $parentAwareTreeNode = new ParentAwareTreeNode($name, null, $children, $parent);
 
-    parent::checkTreeNodeHasChildren($parentAwareTreeNode);
+    TreeNode::checkTreeNodeHasChildren($parentAwareTreeNode);
+
+    ParentAwareTreeNode::checkParentAwareTreeNodeHasParent($parentAwareTreeNode);
 
     return $parentAwareTreeNode;
 
@@ -484,7 +490,9 @@ class ParentAwareTreeNode extends TreeNode {
 
     $parentAwareTreeNode = new ParentAwareTreeNode($name, $value, array(), $parent);
 
-    parent::checkTreeNodeHasNoChildren($parentAwareTreeNode);
+    TreeNode::checkTreeNodeHasNoChildren($parentAwareTreeNode);
+
+    ParentAwareTreeNode::checkParentAwareTreeNodeHasParent($parentAwareTreeNode);
 
     return $parentAwareTreeNode;
 
@@ -504,7 +512,13 @@ class ParentAwareTreeNode extends TreeNode {
 
   }
 
-  protected function __construct($name, $value, $children, $parent) {
+}
+
+class ParentAwareTreeNode extends TreeNode {
+
+  private $parent;
+
+  public function __construct($name, $value, $children, $parent) {
 
     parent::__construct($name, $value, $children);
 
@@ -531,6 +545,32 @@ class ParentAwareTreeNode extends TreeNode {
       die("Parent aware tree node or null expected.");
 
     }
+
+  }
+
+  public static function checkParentAwareTreeNodeHasNoParent($parentAwareTreeNode) {
+
+    if ($parentAwareTreeNode->hasParent()) {
+
+      die("Was expecting a parent aware tree node with a parent node.");
+
+    }
+
+  }
+
+  public static function checkParentAwareTreeNodeHasParent($parentAwareTreeNode) {
+
+    if (!$treeNode->hasChildren()) {
+
+      die("Was expecting a parent aware tree node with no children.");
+
+    }
+
+  }
+
+  public function hasParent($parent) {
+
+    return $this->parent != null;
 
   }
 
