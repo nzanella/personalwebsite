@@ -38,6 +38,6 @@ Foo::greet("David");
 
 Bar::Greet("Anne");
 
-Baz::Greet("Bob");
+Baz::Greet("Bob", "Sue");
 
 ?>
