@@ -412,7 +412,7 @@ class TreeNode {
 
               if ($parentLevelNode->hasMatchingChildNode($childNode)) {
 
-                array_prepend($treeNodePath, $parentLevelNode);
+                array_unshift($treeNodePath, $parentLevelNode);
 
                 $childNode = $parentLevelNode;
 
