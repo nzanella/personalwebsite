@@ -338,31 +338,101 @@ class TreeNode {
 
     $treeNodePath = array();
 
-    $previousLevel = -1;
+    if ($traversalMode = TreeNodeIterator::TRAVERSAL_MODE_DFS) {
 
-    $treeNodeIterator = new TreeNodeIterator($this, $traversalMode);
+      $previousLevel = -1;
 
-    foreach ($treeNodeIterator as $nodeKey => $node) {
+      $treeNodeIterator = new TreeNodeIterator($this, TreeNodeIterator::TRAVERSAL_MODE_DFS);
 
-      // update partial path to target tree node
+      foreach ($treeNodeIterator as $nodeKey => $node) {
 
-      $currentLevel = $treeNodeIterator->key()->getNodeLevel();
+        // update partial path to target tree node
 
-      if ($currentLevel > $previousLevel) {
+        $currentLevel = $treeNodeIterator->key()->getNodeLevel();
 
-        array_push($treeNodePath, $treeNodeIterator->current());
+        if ($currentLevel > $previousLevel) {
 
-      } else if ($currentLevel < $previousLevel) {
+          array_push($treeNodePath, $treeNodeIterator->current());
 
-        array_pop($treeNodePath);
+        } else if ($currentLevel < $previousLevel) {
+
+          array_pop($treeNodePath);
+
+        }
+
+        $previousLevel = $currentLevel;
+
+        if ($treeNodeIterator->current() === $treeNode) {
+
+          return $treeNodePath;
+
+        }
 
       }
 
-      $previousLevel = $currentLevel;
+    } else if ($traversalMode = TreeNodeIterator::TRAVERSAL_MODE_BFS) {
 
-      if ($treeNodeIterator->current() == $treeNode) {
+      $previousLevel = -1;
 
-        return $treeNodePath;
+      $treeNodeIterator = new TreeNodeIterator($this, TreeNodeIterator::TRAVERSAL_MODE_BFS);
+
+      $levels = $array();
+
+      foreach ($treeNodeIterator as $nodeKey => $node) {
+
+        // update levels array
+
+        $currentLevel = $treeNodeIterator->key()->getNodeLevel();
+
+        if ($currentLevel > $previousLevel) {
+
+          array_push($levels, array());
+
+          $previousLevel = $currentLevel;
+
+        }
+
+        array_push($levels[count($levels) - 1], $node);
+
+        if ($node === $treeNode) {
+
+          // construct tree node path from levels
+
+          $childNode = $node;
+
+          array_push($treeNodePath, $childNode);
+
+	  array_pop($levels);
+
+	  while (count($levels) > 0) {
+
+	    $level = $levels[count($levels) - 1];
+
+            foreach ($level as $parentLevelNode) {
+
+              if ($parentLevelNode->hasMatchingChildNode($childNode)) {
+
+                array_prepend($treeNodePath, $parentLevelNode);
+
+                $childNode = $parentLevelNode;
+
+                array_pop($levels);
+
+                continue;
+
+	      } else {
+
+                die("ERROR: Child node not found while constructing path.\n");
+
+              }
+
+            }
+
+	  }
+
+          return $treeNodePath;
+
+        }
 
       }
 
